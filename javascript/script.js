@@ -59,7 +59,7 @@ $(document).ready(function() {
         })
         $('.kumar').on('click', function(e) {
             var obj = document.createElement("audio");
-            obj.src = "assets/"; 
+            obj.src = "assets/birthday-wishes/kumar.ogg"; 
             obj.play();
         })
         $('.tia').on('click', function(e) {
